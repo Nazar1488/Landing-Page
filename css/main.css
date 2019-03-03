@@ -41,6 +41,11 @@ header {
     opacity: 0.5;
   }
 
+  footer {
+    text-align: center;
+    line-height: 2px;
+  }
+
   .title {
     font-size: 48px;
     text-align: center;
@@ -93,7 +98,14 @@ header {
   .spotify:hover {
     transform: scale(1.2);
   }
-
+  
+  #topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  }
   
   #navbar {
     z-index: 1;
