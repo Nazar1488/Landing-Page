@@ -11,8 +11,21 @@
 
 <body>
     <button type="button" id="topBtn" class="btn btn-secondary" onclick="goTop()">Вгору</button>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Westland Festival</a>
+        <div class="btn-group">
+            <a href="#headliners" class="btn btn-warning">ХЕДЛАЙНЕРИ</button>
+            <a class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#firebeatz">FIREBEATZ</a>
+                <a class="dropdown-item" href="#sander">SANDER van DORN</a>
+                <a class="dropdown-item" href="#james">JAMES ZABIELA</a>
+
+            </div>
+        </div>
     </nav>
     <header>
         <video autoplay muted loop>
@@ -40,7 +53,7 @@
                         <hr class="my-4">
                     </h1>
                     <h2>
-                        <div class="title-strong"><strong>ХЕДЛАЙНЕРИ</strong></div>
+                        <div id="headliners" class="title-strong"><strong>ХЕДЛАЙНЕРИ</strong></div>
                     </h2>
                     <div class="row justify-content-center">
                         <div class="card">
