@@ -5,7 +5,7 @@ html {
 header {
     position: relative;
     background-color: black;
-    height: 75vh;
+    height: 100%;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -15,8 +15,7 @@ header {
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 120%;
     width: auto;
     height: auto;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -44,6 +43,10 @@ header {
   footer {
     text-align: center;
     line-height: 2px;
+  }
+
+  .scroll-img {
+    width: 20%;
   }
 
   .title {
