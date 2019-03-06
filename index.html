@@ -1,169 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Westland Festival</title>
-</head>
-
-<body>
-    <button type="button" id="topBtn" class="btn btn-secondary" onclick="goTop()">Вгору</button>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Westland Festival</a>
-        <div class="btn-group">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Westland Festival</title>
+   </head>
+   <body>
+      <button type="button" id="topBtn" class="btn btn-secondary" onclick="goTop()">Вгору</button>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="#">Westland Festival</a>
+         <div class="btn-group">
             <a href="#headliners" class="btn btn-warning">ХЕДЛАЙНЕРИ</button>
-                <a class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    <span class="sr-only">Toggle Dropdown</span>
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#firebeatz">FIREBEATZ</a>
-                    <a class="dropdown-item" href="#sander">SANDER van DORN</a>
-                    <a class="dropdown-item" href="#james">JAMES ZABIELA</a>
-                </div>
-        </div>
-    </nav>
-    <header>
-        <video autoplay muted loop>
+            <a class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+               aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+            </a>
+            <div class="dropdown-menu">
+               <a class="dropdown-item" href="#firebeatz">FIREBEATZ</a>
+               <a class="dropdown-item" href="#sander">SANDER van DORN</a>
+               <a class="dropdown-item" href="#james">JAMES ZABIELA</a>
+            </div>
+         </div>
+      </nav>
+      <header>
+         <video autoplay muted loop>
             <source src="./videos/promo.mp4" type="video/mp4">
-        </video>
-        <div class="container h-100">
+         </video>
+         <div class="container h-100">
             <div class="d-flex h-75 text-center align-items-center">
-                <div class="w-100 text-white">
-                    <h1 class="display-3">Westland</h1>
-                    <p class="lead mb-0">Electronic Dance Music Festival</p>
-                </div>
+               <div class="w-100 text-white">
+                  <h1 class="display-3">Westland</h1>
+                  <p class="lead mb-0">Electronic Dance Music Festival</p>
+               </div>
             </div>
             <div class="d-flex h-25 text-center align-items-center">
-                <div class="w-100 text-white">
-                    <img class="scroll-img" src="./images/scroll-down.gif" />
-                    <p class="lead mb-0">Гортай вниз</p>
-                </div>
+               <div class="w-100 text-white">
+                  <img class="scroll-img" src="./images/scroll-down.gif" />
+                  <p class="lead mb-0">Гортай вниз</p>
+               </div>
             </div>
-        </div>
-    </header>
-
-    <section class="my-5">
-        <div class="container">
+         </div>
+      </header>
+      <section class="my-5">
+         <div class="container">
             <div class="row justify-content-center">
-                <div class="jumbotron">
-                    <h1 class="display-4 title">Третій рік поспіль, на одну ніч, Львів стане центром електронної музики.
-                        <p> Ласкаво
-                            просимо до
-                            нашої танцювальної країни з новим ім'ям</p>
-                        <div><strong>WESTLAND</strong></div>
-                        <hr class="my-4">
-                    </h1>
-                    <h2>
-                        <div id="headliners" class="title-strong"><strong>ХЕДЛАЙНЕРИ</strong></div>
-                    </h2>
-                    <div class="row justify-content-center">
-                        <div class="card">
-                            <a href="#firebeatz" class="card-img-top"><img class="card-img-artist"
-                                    src="images/firebeatz.jpg"></a>
-                            <div class="card-body">
-                                <p class="card-text"></p>
-                                <h3>FIREBEATZ</h3>
-                                <h5>Нідерланди</h5>
-                                <a target="_blank" href="https://open.spotify.com/artist/53YSn9tHwGJ6bq5P0gGoYo">
-                                    <img class="spotify" src="images/spotify.png" />
-                                </a>
-                                </p>
-                            </div>
+               <div class="jumbotron">
+                  <h1 class="display-4 title">
+                     Третій рік поспіль, на одну ніч, Львів стане центром електронної музики.
+                     <p> Ласкаво
+                        просимо до
+                        нашої танцювальної країни з новим ім'ям
+                     </p>
+                     <div><strong>WESTLAND</strong></div>
+                     <hr class="my-4">
+                  </h1>
+                  <h2>
+                     <div id="headliners" class="title-strong"><strong>ХЕДЛАЙНЕРИ</strong></div>
+                  </h2>
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-md-4">
+                           <div class="card">
+                              <a href="#firebeatz" class="card-img-top"><img class="card-img-artist"
+                                 src="images/firebeatz.jpg"></a>
+                              <div class="card-body">
+                                 <p class="card-text"></p>
+                                 <h3>FIREBEATZ</h3>
+                                 <h5>Нідерланди</h5>
+                                 <a target="_blank" href="https://open.spotify.com/artist/53YSn9tHwGJ6bq5P0gGoYo">
+                                 <img class="spotify" src="images/spotify.png" />
+                                 </a>
+                                 </p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="card">
-                            <a href="#sander" class="card-img-top"><img src="images/sander_van_dorn.jpg"
-                                    class="card-img-artist"></a>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <h3>SANDER van DORN</h3>
-                                    <h5>Нідерланди</h5>
-                                    <a target="_blank" href="https://open.spotify.com/artist/22bukBZvUppuwQwmDz75Gz">
-                                        <img class="spotify" src="images/spotify.png" />
-                                    </a>
-                                </p>
-                            </div>
+                        <div class="col-md-4">
+                           <div class="card">
+                              <a href="#sander" class="card-img-top"><img src="images/sander_van_dorn.jpg"
+                                 class="card-img-artist"></a>
+                              <div class="card-body">
+                                 <p class="card-text">
+                                 <h3>SANDER van DORN</h3>
+                                 <h5>Нідерланди</h5>
+                                 <a target="_blank" href="https://open.spotify.com/artist/22bukBZvUppuwQwmDz75Gz">
+                                 <img class="spotify" src="images/spotify.png" />
+                                 </a>
+                                 </p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="card">
-                            <a href="#james" class="card-img-top"><img src="images/james_zabiela.jpg"
-                                    class="card-img-artist"></a>
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <h3>JAMES ZABIELA</h3>
-                                    <h5>Англія</h5>
-                                    <a target="_blank" href="https://open.spotify.com/artist/15mGoF7xgIMiIasAgrrQPs">
-                                        <img class="spotify" src="images/spotify.png" />
-                                    </a>
-                                </p>
-                            </div>
+                        <div class="col-md-4">
+                           <div class="card">
+                              <a href="#james" class="card-img-top"><img src="images/james_zabiela.jpg"
+                                 class="card-img-artist"></a>
+                              <div class="card-body">
+                                 <p class="card-text">
+                                 <h3>JAMES ZABIELA</h3>
+                                 <h5>Англія</h5>
+                                 <a target="_blank" href="https://open.spotify.com/artist/15mGoF7xgIMiIasAgrrQPs">
+                                 <img class="spotify" src="images/spotify.png" />
+                                 </a>
+                                 </p>
+                              </div>
+                           </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div id="firebeatz" class="row">
-                <div class="jumbotron">
-                    <h1 class="display-4">FIREBEATZ</h1>
-                    <hr class="my-4">
-                    <p class="lead">Вони штурмували EDM в 2008 році, і твердо закріпили своє місце.
-                        У 2011 році вони випустили сингл "Funky Shit" на провідному лейблі "Spinnin Records", а потім і
-                        "Where's Your Head At". Ці треки отримали підтримку від багатьох ді-джеїв та продюсерів EDM.
-                        Влітку вони випускають ремікс на Bingo Players, який довгий час лідирує в чартах. Основні жанри:
-                        Dutch House, Progressive Electro.</p>
-                </div>
+         </div>
+         <div id="firebeatz" class="row">
+            <div class="jumbotron">
+               <h1 class="display-4">FIREBEATZ</h1>
+               <hr class="my-4">
+               <p class="lead">Вони штурмували EDM в 2008 році, і твердо закріпили своє місце.
+                  У 2011 році вони випустили сингл "Funky Shit" на провідному лейблі "Spinnin Records", а потім і
+                  "Where's Your Head At". Ці треки отримали підтримку від багатьох ді-джеїв та продюсерів EDM.
+                  Влітку вони випускають ремікс на Bingo Players, який довгий час лідирує в чартах. Основні жанри:
+                  Dutch House, Progressive Electro.
+               </p>
             </div>
-            <div id="sander" class="row">
-                <div class="jumbotron">
-                    <h1 class="display-4">SANDER van DORN</h1>
-                    <hr class="my-4">
-                    <p class="lead">Нідерландській діджей та музичний продюсер, що грає в жанрі прогресив-хаус.
-                        Справжній успіх прийшов до Сандера коли він почав випускати релізи під псевдонім Sander van
-                        Doorn і сконцентрувався на транс-музиці. Його ремікс на трек Арміна ван Бюрена «Control Freak»
-                        був швидко підхоплений діджеями і Сандер почав отримувати підтримку від таких важковиків як
-                        Тієсто, Карл Кокс та Армін ван Бюрен. Сандер має власний лейбл «Doorn Records».</p>
-                </div>
+         </div>
+         <div id="sander" class="row">
+            <div class="jumbotron">
+               <h1 class="display-4">SANDER van DORN</h1>
+               <hr class="my-4">
+               <p class="lead">Нідерландській діджей та музичний продюсер, що грає в жанрі прогресив-хаус.
+                  Справжній успіх прийшов до Сандера коли він почав випускати релізи під псевдонім Sander van
+                  Doorn і сконцентрувався на транс-музиці. Його ремікс на трек Арміна ван Бюрена «Control Freak»
+                  був швидко підхоплений діджеями і Сандер почав отримувати підтримку від таких важковиків як
+                  Тієсто, Карл Кокс та Армін ван Бюрен. Сандер має власний лейбл «Doorn Records».
+               </p>
             </div>
-            <div id="james" class="row">
-                <div class="jumbotron">
-                    <h1 class="display-4">James Zabiela</h1>
-                    <hr class="my-4">
-                    <p class="lead">Справжній британський технарь відомий своєю майстерністю і технікою гри на всіляких
-                        вертушках та програвачах, є «обличчям» компанії Pioneer і представляє такі моделі як Pioneer
-                        CDJ-2000, EFX-1000, RMX-1000 і DJM-900.
-                        Характерний музичний стиль - суміш брейкбіту і Хаус-музики. Його ім'я стало широко відомим після
-                        того, як він став переможцем в конкурсі журналу Muzik Bedroom Bedlam Competition (2000 рік),
-                        отримав титул Best Bedroom Bedlam DJ 2001 і став учасником команди DJ Sasha Excession.</p>
-                </div>
+         </div>
+         <div id="james" class="row">
+            <div class="jumbotron">
+               <h1 class="display-4">James Zabiela</h1>
+               <hr class="my-4">
+               <p class="lead">Справжній британський технарь відомий своєю майстерністю і технікою гри на всіляких
+                  вертушках та програвачах, є «обличчям» компанії Pioneer і представляє такі моделі як Pioneer
+                  CDJ-2000, EFX-1000, RMX-1000 і DJM-900.
+                  Характерний музичний стиль - суміш брейкбіту і Хаус-музики. Його ім'я стало широко відомим після
+                  того, як він став переможцем в конкурсі журналу Muzik Bedroom Bedlam Competition (2000 рік),
+                  отримав титул Best Bedroom Bedlam DJ 2001 і став учасником команди DJ Sasha Excession.
+               </p>
             </div>
+         </div>
+         <div class="row justify-content-center">
+            <a class="btn btn-outline-danger btn-lg" href="https://gastroli.ua/tickets/westland/buy"
+               target="_blank">Купити квитки</a>
+         </div>
+         </div>
+      </section>
+      <section class="my-5">
+         <div class="container">
             <div class="row justify-content-center">
-                <a class="btn btn-outline-danger btn-lg" href="https://gastroli.ua/tickets/westland/buy"
-                    target="_blank">Купити квитки</a>
+               <footer>
+                  <p>Posted by: Nazar Homeniuk</p>
+                  <p>Contact information: <a href="mailto:gomeniuknazar@gmail.com">
+                     gomeniuknazar@gmail.com</a>.
+                  </p>
+               </footer>
             </div>
-        </div>
-    </section>
-    <section class="my-5">
-        <div class="container">
-            <div class="row justify-content-center">
-                <footer>
-                    <p>Posted by: Nazar Homeniuk</p>
-                    <p>Contact information: <a href="mailto:gomeniuknazar@gmail.com">
-                            gomeniuknazar@gmail.com</a>.</p>
-                </footer>
-            </div>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-</body>
-
+         </div>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+         crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+         crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+         crossorigin="anonymous"></script>
+      <script src="js/scripts.js"></script>
+   </body>
 </html>
